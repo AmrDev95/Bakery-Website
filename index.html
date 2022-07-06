@@ -1,81 +1,102 @@
 <html>
     <head>
-        <title>Bakery Assignment</title>
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Family Bakery Website</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <div class="Background">
-            <div class="Nav_bar">
-                <div class="Logo_main">
-                    <img src="images/bakery-light-1.png" alt="Bakery main logo">
+        <!-- Start of home section -->
+        <header class="vh-100 home-bg d-flex justify-content-center align-items-center position-relative">
+            <!-- Start of navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent container-fluid">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="images/bakery-light-1.png" class="w-logo" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Our Offers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+              </nav>
+            <!-- End of navbar -->
 
-                <div class="Main_Links">
-                    <a href="wwww">Home</a>
-                    <a href="wwww">About</a>
-                    <a href="wwww">Our Offer</a>
-                    <a href="wwww">Gallery</a>
-                    <a href="wwww">Blog</a>
-                    <a href="wwww">Contact</a>
-                </div>
-                </div>
-            </div>
 
-            <!-- End of nav bar -->
 
-            <!-- Start of Centered text -->
-            <div class="Centered_text">
+            <!-- Home content -->
+            <div class="text-center text-white">
                 <h2>Welcome to</h2>
-            </div>
-
-            <div class="Centered_text1">
                 <p>Family Bakery</p>
+                <p>We're the biggest, best equipped and most advanced Bakery in the  greater Los Angeles area.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="btn bg-main text-white border border-dark border-2 me-2 px-3 py-3 rounded-0">Learn more</button>
+                    <button class="btn bg-transparent border border-dark border-2 text-white ms-2 px-3 py-3 rounded-0">Contact Us</button>
+                </div>
             </div>
+            <!-- End of Home content -->
+        </header>
+        <!-- End of home section -->
 
-            <div class="Centered_text2">
-                We're the biggest, best equipped and most advanced Bakery in <br><br>the  greater Los Angeles area. <br><br><br>
-                <button class="Button">
-                    <a href="WWW">Learn more</a>
-                </button>
-                <button class="Button1">
-                    <a href="www">Contact us</a>
-                </button>
+        <!-- About us section -->
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="Backery image" class="w-75">
+                </div>
+
+                <div class="col-md-6 p-4 my-auto">
+                    <h2>Who we are?</h2>
+                    <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+                    <table class="table">
+                        <tr>
+                            <td><i class="fa-solid fa-leaf text-main fs-3"></i></td>
+                            <td>We care about environment.</td>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-user-group text-main fs-3"></i></td>
+                            <td>We are trusted by hundreds of clients.</td>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-heart text-main fs-3"></i></td>
+                            <td>Social media loves us!</td>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-check text-main fs-3"></i></td>
+                            <td>This list is super easy to create.</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-
-        </div>
-
-        <br><br><br><br>
-        <!-- End of the background first part of the code -->
-
-        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-
-        <div class="Split">
-            <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="Backery image">
-        </div>
-
-        <div Class="Split Position">
-            <h2>Who we are?</h2>
-            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
-            <table>
-                <tr>
-                    <td rowspan="4"><img src="images/Icons.PNG" alt="icons"></td>
-                    <td>We care about environment.</td>
-                </tr>
-                <tr>
-                    <td>We are trusted by hundreds of clients.</td>
-                </tr>
-                <tr>
-                    <td>Social media loves us!</td>
-                </tr>
-                <tr>
-                    <td>This list is super easy to create.</td>
-                </tr>
-            </table>
-        </div>
+        </section>
+        <!-- End of about us section -->
 
 
-        <div class="Background2">
+        <div class="Background2 d-none">
             <br><br><br><br><br>
             <div class="Paragraph Adjust">
                 <h2>Our Location</h2>
@@ -246,6 +267,9 @@
         </div>
 
 
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.js"></script>
 
     </body>
 </html>

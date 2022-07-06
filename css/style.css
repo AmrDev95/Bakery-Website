@@ -1,136 +1,44 @@
-body, html
-{
-    height: 100%;
-    margin: 0;
+:root{
+    --main-color: rgb(142,119,84);
 }
 
-.Background
+.bg-main{
+    background-color: var(--main-color);
+}
+
+.text-main{
+    color: var(--main-color);
+}
+
+.home-bg
 {
-    position: relative;
-    background-image: url(images/drew-coffman-1872.jpg);
-    width:100%;
-    height:100%;
-    background-position: center;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-.Nav_bar
-{
+.navbar{
     position: absolute;
-    width: 80%;
-    top: 2%;
-    left: 10%;
-
-
-
+    top: 0;
+    left: 0;
+    padding: 15px 0px !important;
 }
 
-.logo_main img
-{
-    width:15%;
+.active{
+    color: var(--main-color) !important;
 }
 
-.Main_Links
-{
-    position: absolute;
-    top: 30%;
-    left: 55%;
+.nav-item:hover a{
+    color: var(--main-color) !important;
+}
 
+.w-logo{
+    width: 150px;
 }
 
 
-.Main_Links a
-{
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 19px;
-    color: white;
-}
-
-.Nav_bar a:hover
-{
-    background-color:gray;
-    color: white;
-}
-
-.Centered_Text
-{
-    position: absolute;
-    top: 30%;
-    left: 45%;
-    color: white;
-}
-
-.Centered_Text h2
-{
-    font-size: 25px;
-}
-
-.Centered_Text1
-{
-    position:absolute;
-    top: 27%;
-    left: 35%;
-    color: white;
-}
-
-.Centered_Text1 p
-{
-    font-size: 80px;
-}
-
-.Centered_Text2
-{
-    position:absolute;
-    width: 40%;
-    height: 40%;
-    left: 30%;
-    top:53%;
-    text-align: center;
-    color: white;
-    /* color: black; */
-    font-size: large;
-    /* background-color: white; */
-    font-size: 24px;
-    
-}
-
-.Button a
-{
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-}
-
-.Button1 a
-{
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color:white;
-}
-
-.Button
-{
-    background-color: rgb(142,119,84);
-}
-
-.Button1
-{
-    background-color:transparent ;
-}
+/* Clean code end */
 
 .Split
 {
